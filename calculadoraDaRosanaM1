@@ -1,0 +1,27 @@
+num1 = float(input("Digite o número desejado: "))        #número flutuante
+num2 = float(input("Digite o outro número desejado: "))
+
+print("Escolha uma operação:")    # /n quebra a linha
+print("1 Adição")
+print("2 Subtração")
+print("3 multiplicação")
+print("4 Divisão")
+print("5 Sair")
+
+escolha = input("Digite o número da operação desejada 1, 2, 3, 4, 5: ")
+
+if escolha == '1':      #Adição
+  resultado = num1 + num2
+  print(f"{num1} + {num2} = {resultado}")
+
+if escolha == '2':     #Subtração
+  resultado = num1 - num2
+  print(f"{num1} - {num2} = {resultado}")
+
+if escolha == '3':     #Multiplicação
+  resultado = num1 * num2
+  print(f"{num1} * {num2} = {resultado}")
+
+if escolha == '4':      #Divisão
+  resultado = num1 / num2
+  print(f"{num1} / {num2} = {resultado}")
